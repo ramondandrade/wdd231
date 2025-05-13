@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals by Ramon Andrade - My first web page">
+    <meta name="author" content="Ramon Andrade">
+    <title>WDD 131 - Dynamic Web Fundamentals - Ramon Andrade</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <h1 class="name"><img src="images/profile.webp" alt="profile image"> Ramon Andrade</span></h1>
+
+        <nav class="nav_bar">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="#" class="nav-link">Chamber</a>
+            <a href="#" class="nav-link">Final</a>
+            <a href="https://github.com/ramondandrade" class="nav-link">Github Profile</a>
+            <a href="https://www.linkedin.com/in/ramon-andrade/" class="nav-link">LinkedIn</a>
+        </nav>
+
+        <button type="button" id="menu" aria-label="Menu"></button>
+
+    </header>
+
+    <main>
+
+        <section class="card">
+
+            <div class="card-header">
+                <h2>Course Work</h2>
+
+            </div>
+
+            <div class="card-body">
+
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section class="card">
+
+            <div class="card-header">
+                <h2>Natal, Brasil</h2>
+            </div>
+
+            <div class="card-body">
+                <p><img src="images/brazil-flag.webp" alt="Brasil flag" class="flag"></p>
+                <p>Brazilian flag</p>
+            </div>
+
+        </section>
+
+
+        <section class="card">
+
+            <div class="card-header">
+                <h2>Web and Computer Programming Certificate</h2>
+            </div>
+
+            <div class="card-body">
+
+                <button onclick="filterBySubject('all')" class="button">All</button> <button
+                    onclick="filterBySubject('CSE')" class="button">CSE</button> <button
+                    onclick="filterBySubject('WDD')" class="button">WDD</button>
+
+                <div id="courses_total"></div>
+
+                <div id="courses_list"></div>
+            </div>
+
+        </section>
+
+
+
+
+    </main>
+
+    <footer>
+        <p>
+            © <span id="currentYear"></span> Ramon Andrade - BR
+        </p>
+        <p>
+            Last modification: <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+
+</html>
