@@ -1,7 +1,7 @@
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const url = './scripts/members.json';
+const url = './data/members.json';
 const cards = document.querySelector('#cards');
 
 gridbutton.addEventListener("click", showGrid); // example using defined function
