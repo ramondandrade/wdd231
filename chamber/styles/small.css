@@ -173,14 +173,6 @@ section div {
     padding:0px 10px;
 }
 
-.list section {
-	display: grid;
-	grid-template-columns: 1fr;
-	margin: 0;
-	padding: 0.25rem;
-    border-radius:0;
-}
-
 .list section > * {
 	margin: 0 1rem;
 }
