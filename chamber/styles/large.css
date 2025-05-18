@@ -1,0 +1,38 @@
+/* Large screen styles */
+@media (min-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 70px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .nav_bar {
+        flex-direction: row;
+        grid-column: 1fr;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .nav_bar a {
+        display: block;
+        flex: 1 1 100%;
+        font-size: 16px;
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0;
+        padding: 0.25rem;
+    }
+
+
+}
