@@ -32,18 +32,18 @@
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/home.js" defer></script>
 </head>
 
 <body>
     <header>
 
-        <p class="title">Chamber of Commerce</p>
+        <p class="title">Madrid<br>Chamber of Commerce</p>
 
-        <nav class="nav_bar">
-            <a href="index.html" class="nav-link">Home</a>
+         <nav class="nav_bar">
+            <a href="index.html" class="nav-link active">Home</a>
             <a href="#" class="nav-link">Discover</a>
-            <a href="directory.html" class="nav-link active">Directory</a>
+            <a href="directory.html" class="nav-link">Directory</a>
             <a href="#" class="nav-link">Join</a>
         </nav>
 
@@ -52,12 +52,38 @@
     </header>
 
     <main>
-        <h1>Directory</h1>
-        <div class="menu">
-            <button id="grid">⏹️ Grid</button>
-            <button id="list">📄 List</button>
-        </div>
-        <div id="cards" class="grid"></div>
+        
+        <section class="hero">
+           <a href="#">Keynote ticket</a>
+        </section>
+
+         <section>
+            <h1>Home</h1>
+            <div class="home-sections">
+                <div class="events">
+                    <h2>Events</h2>
+                    <ul>
+                        <li>Business Networking - June 15</li>
+                        <li>Summer Festival - July 10</li>
+                        <li>Workshop: Marketing 101 - August 5</li>
+                    </ul>
+                </div>
+                <div class="weather">
+                    <h2>Current Weather</h2>
+                    <div id="weather-info"></div>
+                </div>
+                <div class="forecast">
+                    <h2>Weather Forecast</h2>
+                    <div id="forecast-info"></div>
+                </div>
+                
+            </div>
+        </section>
+
+    <section id="business-list" class="business-list">
+        <div id="business-list-div" class="business-list-div"></div>
+    </section>
+
     </main>
 
     <footer>

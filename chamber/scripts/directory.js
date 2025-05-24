@@ -24,6 +24,7 @@ async function getMemberData() {
 }
 
 const displayMembers = (Members) => {
+    
     Members.forEach((Member) => {
 
         const card = document.createElement('section');
@@ -51,7 +52,6 @@ const displayMembers = (Members) => {
         link.textContent = `${Member.website}`;
         website.appendChild(link);
       
-       
         address.textContent = Member.address;
         contact.textContent = Member.phone;
 

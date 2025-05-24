@@ -1,66 +1,72 @@
 [
-    {
-      "name": "Sunrise Bakery",
-      "address": "123 Morning Lane",
-      "phone": "(202) 555-1234",
-      "website": "https://sunrisebakery.com",
-      "image": "./images/sunrise.webp",
-      "membership": 3,
-      "description": "Family-owned bakery with organic offerings."
-    },
-    {
-      "name": "Green Valley Farms",
-      "address": "456 Farm Road",
-      "phone": "(202) 555-5678",
-      "website": "https://greenvalleyfarms.com",
-      "image": "./images/greenvalley.webp",
-      "membership": 2,
-      "description": "Sustainable local produce and products."
-    },
-    {
-      "name": "BrightTech Solutions",
-      "address": "789 Innovation Blvd",
-      "phone": "(202) 555-9012",
-      "website": "https://brighttech.io",
-      "image": "./images/bright.webp",
-      "membership": 1,
-      "description": "Cloud solutions for small businesses."
-    },
-    {
-      "name": "Peak Fitness",
-      "address": "101 Peak Ave",
-      "phone": "(202) 555-2345",
-      "website": "https://peakfitness.com",
-      "image": "./images/peak.webp",
-      "membership": 2,
-      "description": "24/7 gym and health center."
-    },
-    {
-      "name": "Oak Tree Realty",
-      "address": "202 Maple Street",
-      "phone": "(202) 555-3456",
-      "website": "https://oaktreerealty.com",
-      "image": "./images/oak.webp",
-      "membership": 3,
-      "description": "Trusted real estate experts in the community."
-    },
-    {
-      "name": "Sparkle Cleaners",
-      "address": "303 Clean Blvd",
-      "phone": "(202) 555-4567",
-      "website": "https://sparklecleaners.com",
-      "image": "./images/sparkle.webp",
-      "membership": 1,
-      "description": "Eco-friendly dry cleaning services."
-    },
-    {
-      "name": "Nova IT",
-      "address": "404 Tech Park",
-      "phone": "(202) 555-5678",
-      "website": "https://novait.com",
-      "image": "./images/novait.webp",
-      "membership": 2,
-      "description": "Managed IT services and consulting."
-    }
+  {
+    "name": "Sunrise Bakery",
+    "address": "123 Morning Lane",
+    "phone": "(202) 555-1234",
+    "email": "info@gmail.com",
+    "website": "https://sunrisebakery.com",
+    "image": "./images/sunrise.webp",
+    "membership": 3,
+    "description": "Family-owned bakery with organic offerings."
+  },
+  {
+    "name": "Green Valley Farms",
+    "address": "456 Farm Road",
+    "phone": "(202) 555-5678",
+    "email": "info@gmail.com",
+    "website": "https://greenvalleyfarms.com",
+    "image": "./images/greenvalley.webp",
+    "membership": 2,
+    "description": "Sustainable local produce and products."
+  },
+  {
+    "name": "BrightTech Solutions",
+    "address": "789 Innovation Blvd",
+    "phone": "(202) 555-9012",
+    "email": "info@gmail.com",
+    "website": "https://brighttech.io",
+    "image": "./images/bright.webp",
+    "membership": 1,
+    "description": "Cloud solutions for small businesses."
+  },
+  {
+    "name": "Peak Fitness",
+    "address": "101 Peak Ave",
+    "phone": "(202) 555-2345",
+    "email": "info@gmail.com",
+    "website": "https://peakfitness.com",
+    "image": "./images/peak.webp",
+    "membership": 2,
+    "description": "24/7 gym and health center."
+  },
+  {
+    "name": "Oak Tree Realty",
+    "address": "202 Maple Street",
+    "phone": "(202) 555-3456",
+    "email": "info@gmail.com",
+    "website": "https://oaktreerealty.com",
+    "image": "./images/oak.webp",
+    "membership": 3,
+    "description": "Trusted real estate experts in the community."
+  },
+  {
+    "name": "Sparkle Cleaners",
+    "address": "303 Clean Blvd",
+    "phone": "(202) 555-4567",
+    "email": "info@gmail.com",
+    "website": "https://sparklecleaners.com",
+    "image": "./images/sparkle.webp",
+    "membership": 1,
+    "description": "Eco-friendly dry cleaning services."
+  },
+  {
+    "name": "Nova IT",
+    "address": "404 Tech Park",
+    "phone": "(202) 555-5678",
+    "email": "info@gmail.com",
+    "website": "https://novait.com",
+    "image": "./images/novait.webp",
+    "membership": 2,
+    "description": "Managed IT services and consulting."
+  }
 ]
-  

@@ -34,5 +34,17 @@
         padding: 0.25rem;
     }
 
+    .hero{
+        height: 300px;
+    }
+
+    .home-sections {
+        grid-template-columns: 1fr 300px 300px;
+    }
+
+    .business-list-div{
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+
 
 }

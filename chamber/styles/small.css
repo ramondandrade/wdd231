@@ -124,28 +124,127 @@ h3 {
     cursor: pointer;
 }
 
-main{text-align: center; min-height: 500px;}
+main{text-align: center; min-height: 500px; margin-top:50px;}
 
 #cards{
     margin:20px 0px;
 }
 
-section {
-    border: 1px solid #afafaf;
-    margin: 10px;
-    text-align:center;
-    padding:10px;
+.hero{
+    width:100%; 
+    height: 150px;
+    background-image: url("../images/madrid-banner-hero.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-section h2 {
-    font-size: 26px;
+.hero a{
+    width: auto;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #05406e;
+    color: #FFF;
+    font-weight: 700;
+    border: 0px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 1px 1px 20px 4px #ffffff;
+}
+
+.home-sections {
+    margin: 10px;
+    text-align:center;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 20px;
+}
+
+.home-sections > div{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.home-sections h2 {
+    font-size: 16px;
+    color:#FFF;
+    margin:0px;
+    padding:5px 0px;
+    border-radius: 7px 7px 0px 0px;
+    background: #05406e;
+}
+
+.weather {
+    text-align:center;
+}
+
+.weather-icon {
+    width: 60px;
+    height: 60px;
+    vertical-align: top;
+}
+#weather-info {
+    padding-top:20px;
+}
+
+#weather-info div{
+    display: inline-table;
+    text-align: center;
+}
+
+.forecast {
+    text-align:center;
+}
+
+#forecast-info {
+    padding-top:40px;
+    font-size:26px;
+    margin-bottom: 0.5rem;
+}
+
+.business-list{
+    grid-row: 1 / 4;
+    margin: 50px 0px;
+}
+
+.business-list-div{
+    margin: 10px;
+    text-align:center;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 20px;
+}
+
+.business-info{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding:10px 0px
+}
+
+.business-info h3 {
+    font-size: 20px;
+    margin:0px;
+    padding:10px 0px;
     color: #05406e;
 }
 
-section div {
-    width:100%;
-    font-size: 14px;
-    color: #333;
+.business-info img {
+    width:150px;
+    float:left;
+    text-align: center;
+}
+
+.business-info div{
+   float: right;
+       width: calc(100% - 150px);
+        text-align: left;
 }
 
 .grid{
