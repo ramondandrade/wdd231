@@ -42,16 +42,18 @@ async function getWeather(){
 
      try {
 
-        // Fetch 3-day forecast
+        // Fetch 3-day forecast including today
         const forecastRes = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=${units}`);
         const forecastData = await forecastRes.json();
         const forecastList = forecastData.list.filter(item => item.dt_txt.includes("12:00:00"));
         const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
         let forecastHTML = "";
-        for (let i = 1; i <= 3; i++) {
+        const todayDate = new Date().toISOString().slice(0, 10);
+        for (let i = 0; i < 3; i++) { // start from 0 to include today
             const dayData = forecastList[i];
+            if (!dayData) continue;
             const date = new Date(dayData.dt_txt);
-            const dayName = days[date.getDay()];
+            const dayName = date.toISOString().slice(0, 10) === todayDate ? "Today" : days[date.getDay()];
             const dayTemp = Math.round(dayData.main.temp);
             forecastHTML += `<span>${dayName}: <b>${dayTemp}° F</b></span><br>`;
         }
