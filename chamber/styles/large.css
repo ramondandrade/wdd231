@@ -1,5 +1,6 @@
 /* Large screen styles */
 @media (min-width: 768px) {
+
     header {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 70px;
@@ -45,6 +46,23 @@
     .business-list-div{
         grid-template-columns: 1fr 1fr 1fr; 
     }
+
+    .main-join {
+        grid-template-areas:
+            "title title"
+            "form section";
+        grid-template-columns: 1fr 1fr;
+    }
+
+    form {
+        flex: 2;
+    }
+
+    .membership-cards {
+        flex: 1;
+        grid-template-columns: 1fr;
+    }
+
 
 
 }

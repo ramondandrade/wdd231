@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Chamber of Commerce  - Membership Application">
+    <meta name="author" content="Ramon Andrade">
+    <title>Chamber of Commerce  - Membership Application</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="./images/favicon-16x16.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ramondandrade.github.io/wdd231/chamber">
+    <meta property="og:image" content="https://ramondandrade.github.io/wdd231/chamber/images/banner.webp">
+    <meta property="og:description" content="Madrid - Chamber of Commerce">
+    <meta property="og:site_name" content="Madrid - Chamber of Commerce">
+    <meta property="og:title" content="Madrid - Chamber of Commerce">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ramondandrade.github.io/wdd231/chamber">
+    <meta name="twitter:title" content="Madrid - Chamber of Commerce">
+    <meta name="twitter:description" content="Ramon Andrade Chamber of Commerce">
+    <meta name="twitter:image" content="https://ramondandrade.github.io/wdd231/chamber/images/banner.webp">
+    <link rel="preconnect" href="https://api.openweathermap.org">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <p class="title">Madrid<br>Chamber of Commerce</p>
+
+        <nav class="nav_bar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Discover</a>
+            <a href="directory.html" class="nav-link">Directory</a>
+            <a href="join.html" class="nav-link active">Join</a>
+        </nav>
+
+        <button type="button" id="menu" aria-label="Menu"></button>
+
+    </header>
+
+    <main class="main-join">
+        <h1>Membership Application</h1>
+        <form action="thankyou.html" method="get" autocomplete="on">
+            <p class="form-titles">Personal information:</p>
+            <label title="Enter your first name">First Name:
+                <input type="text" name="firstName" required title="Requires at least 7 alpha, hyphens, and spaces only." autocomplete="given-name">
+            </label>
+            <label title="Enter your last name">Last Name:
+                <input type="text" name="lastName" required title="Last Name" autocomplete="family-name">
+            </label>
+            <label title="Enter your job title">Organizational Title:
+                <input type="text" name="orgTitle" title="At least 7 alpha, hyphens, and spaces only" autocomplete="organization-title"
+                    pattern="[A-Za-z\-\s]{7,}" >
+            </label>
+            <label title="Enter your email">Email:
+                <input type="email" name="email" required title="Email Address" autocomplete="email"
+                    placeholder="you@example.com">
+            </label>
+            <label title="Enter your mobile number">Mobile Phone:
+                <input type="tel" name="mobile" required title="Mobile Phone" autocomplete="tel">
+            </label>
+            
+            <p class="form-titles">Business/Organization information:</p>
+
+            <label title="Enter your business or organization's name">Business/Organization Name:
+                <input type="text" name="organization" required title="Organization" autocomplete="organization">
+            </label>
+            <label title="Select a membership level">Membership Level:
+                <select name="membership" required>
+                    <option value="np">NP Membership (Free)</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+            <label title="Describe your business or organization">Business/Organization Description:
+                <textarea name="description" title="Business Description"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input type="submit" value="Submit Application">
+        </form>
+
+        <section class="membership-cards">
+            <div class="membership-card" id="np">
+                <h2>NP Membership</h2>
+                <button type="button" onclick="openModal('modal-np')">More Info</button>
+            </div>
+            <div class="membership-card" id="bronze">
+                <h2>Bronze Membership</h2>
+                <button type="button" onclick="openModal('modal-bronze')">More Info</button>
+            </div>
+            <div class="membership-card" id="silver">
+                <h2>Silver Membership</h2>
+                <button type="button" onclick="openModal('modal-silver')">More Info</button>
+            </div>
+            <div class="membership-card" id="gold">
+                <h2>Gold Membership</h2>
+                <button type="button" onclick="openModal('modal-gold')">More Info</button>
+            </div>
+        </section>
+
+        <!-- Modals -->
+        <dialog class="modal" id="modal-np">
+            <div class="modal-content">
+                <button class="close" aria-label="Close">&times;</button>
+                <h2>NP Membership Benefits</h2>
+                <p>No fee. Includes access to nonprofit-only events and basic training resources.</p>
+            </div>
+        </dialog>
+        <dialog class="modal" id="modal-bronze">
+            <div class="modal-content">
+                <button class="close" aria-label="Close">&times;</button>
+                <h2>Bronze Membership Benefits</h2>
+                <p>Includes event discounts and access to the member newsletter.</p>
+            </div>
+        </dialog>
+        <dialog class="modal" id="modal-silver">
+            <div class="modal-content">
+                <button class="close" aria-label="Close">&times;</button>
+                <h2>Silver Membership Benefits</h2>
+                <p>All Bronze benefits plus advertising and spotlight positions on the  - Membership Application.</p>
+            </div>
+        </dialog>
+        <dialog class="modal" id="modal-gold">
+            <div class="modal-content">
+                <button class="close" aria-label="Close">&times;</button>
+                <h2>Gold Membership Benefits</h2>
+                <p>All Silver benefits plus exclusive networking events and premium training access.</p>
+            </div>
+        </dialog>
+    </main>
+    <footer>
+        <p>
+            © <span id="currentYear"></span>  Madrid - Chamber of Commerce
+        </p>
+        <p>
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+
+</html>
