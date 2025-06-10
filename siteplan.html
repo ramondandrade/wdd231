@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recipe Collection Website - Site Plan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Pacifico&family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/siteplan.css">
+</head>
+<body>
+  <header>
+    <h1>Ramon Andrade - Site Plan</h1>
+  </header>
+
+  <section id="site-name">
+    <h2>1. Site Name</h2>
+    <p><strong>Name:</strong> <em>Tasty Bites</em></p>
+    <p><strong>Reason:</strong> The name <em>Tasty Bites</em> reflects the website’s focus on sharing delicious, bite-sized recipes that are easy to follow and enjoyable to cook. It’s catchy, memorable, and hints at quick, tasty meals or treats.</p>
+  </section>
+
+  <section id="site-purpose">
+    <h2>2. Site Purpose</h2>
+    <p><em>Tasty Bites</em> is a small, user-friendly website designed to showcase a curated collection of favorite recipes. The site organizes recipes into categories such as Breakfast, Lunch, Dinner, and Desserts. Each recipe includes a title, ingredients list, step-by-step instructions, and optionally, images for better guidance. This site aims to provide inspiration and practical cooking instructions for home cooks of all levels.</p>
+  </section>
+
+  <section id="user-scenarios">
+    <h2>3. User Scenarios</h2>
+    <ul>
+      <li><strong>Scenario 1:</strong> A visitor wants to find a simple, quick breakfast recipe that they can prepare on a busy weekday morning.<br>
+          <em>Question:</em> “What easy breakfast recipes do you have that I can make in under 15 minutes?”</li>
+      <li><strong>Scenario 2:</strong> A visitor is looking for a dessert recipe to impress guests at a dinner party.<br>
+          <em>Question:</em> “Can I find a dessert recipe with clear steps and pictures to follow?”</li>
+    </ul>
+  </section>
+
+  <section id="color-schema">
+    <h2>4. Color Schema</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Color Name</th>
+          <th>Hex Code</th>
+          <th>Usage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Warm Orange</td>
+          <td>#F28C28</td>
+          <td>Primary accent color — headings, buttons, links</td>
+        </tr>
+        <tr>
+          <td>Soft Cream</td>
+          <td>#FFF8E7</td>
+          <td>Background color — page background, recipe cards</td>
+        </tr>
+        <tr>
+          <td>Dark Charcoal</td>
+          <td>#333333</td>
+          <td>Text color — body text, headings</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><em>Explanation:</em> Warm Orange evokes appetite and energy, perfect for a food-related site. Soft Cream provides a gentle, inviting background that is easy on the eyes. Dark Charcoal ensures excellent readability for all textual content.</p>
+  </section>
+
+  <section id="typography">
+    <h2>5. Typography</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Font Name</th>
+          <th>Usage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>Poppins</code></td>
+          <td>Headings (h1, h2, h3)</td>
+        </tr>
+        <tr>
+          <td><code>Roboto</code></td>
+          <td>Body text, paragraphs, ingredients lists</td>
+        </tr>
+        <tr>
+          <td><code>Pacifico</code></td>
+          <td>Logo / Site name (optional decorative font)</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><em>Explanation:</em></p>
+    <ul>
+      <li><code>Poppins</code> offers a clean, modern look for headings.</li>
+      <li><code>Roboto</code> is highly readable for paragraphs and lists.</li>
+      <li><code>Pacifico</code> adds a friendly, hand-written touch to the logo or site name, making it more personal.</li>
+    </ul>
+  </section>
+
+  <section id="wireframe">
+    <h2>6. Wireframe</h2>
+    <h3>Desktop View Layout</h3>
+    <img src="images/site_plan_wide.webp" alt="desktop">
+
+    <h3>Mobile View Layout</h3>
+    <img src="images/site_plan_short.webp" alt="mobile">
+
+    <p><em>Note:</em> Clicking on a recipe card opens a modal overlay with full recipe details: ingredients, steps, and larger images.</p>
+  </section>
+
+  <section id="html-outline">
+    <h2>7. HTML Content Outline</h2>
+    <ul>
+      <li><strong>Header:</strong>
+        <ul>
+          <li>Site name/logo (<code>h1</code> with logo font)</li>
+          <li>Navigation bar (<code>ul</code> with <code>li</code> for categories)</li>
+        </ul>
+      </li>
+      <li><strong>Main Section:</strong>
+        <ul>
+          <li>Featured Recipe section (highlight one recipe)</li>
+          <li>Category filter buttons (Breakfast, Lunch, Dinner, Desserts)</li>
+          <li>Recipe list (<code>article</code> elements or <code>section</code> with each recipe as an article)
+            <ul>
+              <li>Recipe Title (<code>h2</code>)</li>
+              <li>Image (<code>img</code>) with alt text</li>
+              <li>Ingredients (<code>ul</code>)</li>
+              <li>Preparation steps (<code>ol</code> or <code>p</code>)</li>
+              <li>Modal functionality to enlarge image/details</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><strong>Footer:</strong>
+        <ul>
+          <li>Contact info</li>
+          <li>Copyright</li>
+          <li>Social media links</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="css-plan">
+    <h2>8. CSS Plan</h2>
+    <ul>
+      <li>Use the Warm Orange color for headings, buttons, and accents.</li>
+      <li>Background color of the body and recipe cards uses Soft Cream.</li>
+      <li>Text color Dark Charcoal for all textual elements for readability.</li>
+      <li>Use <code>Poppins</code> for headings with font-weight bold.</li>
+      <li>Use <code>Roboto</code> for paragraph text and lists.</li>
+      <li>Logo site name in <code>Pacifico</code>, styled distinctively.</li>
+      <li>Responsive layout: Flexbox or CSS Grid for the desktop grid; stacked/scroll layout for mobile.</li>
+      <li>Modal styling: semi-transparent dark overlay with centered recipe detail box.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
