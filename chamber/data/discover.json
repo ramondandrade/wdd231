@@ -1,0 +1,51 @@
+
+[
+    {
+        "name": "Museo del Prado",
+        "address": "Calle de Ruiz de Alarcón 23, 28014 Madrid, Spain",
+        "description": "Spain's main national art museum, featuring one of the world's finest collections of European art.",
+        "photo": "images/prado.webp"
+    },
+    {
+        "name": "Parque del Retiro",
+        "address": "Plaza de la Independencia 7, 28001 Madrid, Spain",
+        "description": "A large and popular park in central Madrid, perfect for walks, boating, and relaxation.",
+        "photo": "images/retiro.webp"
+    },
+    {
+        "name": "Palacio Real de Madrid",
+        "address": "Calle de Bailén s/n, 28071 Madrid, Spain",
+        "description": "The official residence of the Spanish Royal Family, open to the public for tours.",
+        "photo": "images/palacioreal.webp"
+    },
+    {
+        "name": "Plaza Mayor",
+        "address": "Plaza Mayor, 28012 Madrid, Spain",
+        "description": "A grand central square surrounded by historic buildings, cafes, and shops.",
+        "photo": "images/plazamayor.webp"
+    },
+    {
+        "name": "Templo de Debod",
+        "address": "Calle Ferraz 1, 28008 Madrid, Spain",
+        "description": "An ancient Egyptian temple gifted to Spain, located in a scenic park.",
+        "photo": "images/debod.webp"
+    },
+    {
+        "name": "Gran Vía",
+        "address": "Gran Vía, 28013 Madrid, Spain",
+        "description": "Madrid's most famous street, known for shopping, theaters, and vibrant nightlife.",
+        "photo": "images/granvia.webp"
+    },
+    {
+        "name": "Mercado de San Miguel",
+        "address": "Plaza de San Miguel s/n, 28005 Madrid, Spain",
+        "description": "A historic market offering gourmet tapas, fresh produce, and local delicacies.",
+        "photo": "images/sanmiguel.webp"
+    },
+    {
+        "name": "Santiago Bernabéu Stadium",
+        "address": "Av. de Concha Espina 1, 28036 Madrid, Spain",
+        "description": "The iconic home stadium of Real Madrid CF, offering tours and events.",
+        "photo": "images/bernabeu.webp"
+    }
+]

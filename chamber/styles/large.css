@@ -1,5 +1,5 @@
 /* Large screen styles */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 
     header {
         grid-template-columns: 1fr;
@@ -63,6 +63,24 @@
         grid-template-columns: 1fr;
     }
 
+    .cards-container {
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .discover-card figure img:hover {
+        transform: scale(1.08);
+        transition: transform 0.3s ease;
+        z-index: 1;
+    }
+
+    .discover-card {
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        grid-template-rows: auto 1fr;
+        grid-template-areas:
+            "title title"
+            "figure div"
+            "button button";
+    }
 
 }
