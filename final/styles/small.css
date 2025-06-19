@@ -123,6 +123,10 @@ main {
   z-index: 1;
 }
 
+.hero h1{
+    font-size: 2.5rem;
+}
+
 .button {
     width: auto;
     padding: 1rem;
