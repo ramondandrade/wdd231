@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tasty Bites - Just amazing recipes">
+    <meta name="author" content="Ramon Andrade">
+    <title>Tasty Bites - Recipes</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" href="./images/icon.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ramondandrade.github.io/wdd231/final">
+    <meta property="og:image" content="https://ramondandrade.github.io/wdd231/final/images/banner.webp">
+    <meta property="og:description" content="Tasty Bites">
+    <meta property="og:site_name" content="Tasty Bites">
+    <meta property="og:title" content="Tasty Bites">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ramondandrade.github.io/wdd231/final">
+    <meta name="twitter:title" content="Tasty Bites">
+    <meta name="twitter:description" content="Tasty Bites">
+    <meta name="twitter:image" content="https://ramondandrade.github.io/wdd231/final/images/banner.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+</head>
+
+<body onload="renderRecipes('all')">
+    <header>
+        <p class="logo">Tasty Bites</p>
+
+        <nav class="nav_bar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="recipes.html" class="nav-link active">Recipes</a>
+            <a href="send-recipe.html" class="nav-link">Send Your Recipe</a>
+        </nav>
+
+        <button type="button" id="menu" aria-label="Menu"></button>
+
+    </header>
+
+    <main>
+        <section class="recipes">
+            <h1>TOP Recipes</h1>
+
+            <nav>
+                <ul id="category-nav" class="category-nav">
+                    <li><button data-filter="all">All</button></li>
+                    <li><button data-filter="Breakfast">Breakfast</button></li>
+                    <li><button data-filter="Lunch">Lunch</button></li>
+                    <li><button data-filter="Dinner">Dinner</button></li>
+                    <li><button data-filter="Desserts">Desserts</button></li>
+                </ul>
+            </nav>
+
+            <div id="recipe-list" class="recipe-list">
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at hello@tastybites.com</p>
+        <p>&copy; 2025 Tasty Bites</p>
+        <div class="social-links">
+            <a href="https://instagram.com">Instagram</a> |
+            <a href="https://facebook.com">Facebook</a>
+        </div>
+    </footer>
+
+    <!-- Modal using <dialog> -->
+    <dialog id="recipeModal" class="modal">
+        <div class="modal-content">
+            <button type="submit" class="close-button" aria-label="Close">&times;</button>
+            <h3 id="modal-title"></h3>
+            <p id="modal-time"></p>
+            <img id="modal-image" src="" alt="Recipe Image" />
+            <h3>Ingredients</h3>
+            <ul id="modal-ingredients">
+            </ul>
+            <h3>Steps</h3>
+            <ol id="modal-steps">
+            </ol>
+            <p id="modal-funfact"></p>
+        </div>
+    </dialog>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/recipes.js"></script>
+</body>
+</html>

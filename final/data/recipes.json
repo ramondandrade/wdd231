@@ -1,0 +1,259 @@
+[
+    {
+        "name": "Fluffy Pancakes",
+        "category": "Breakfast",
+        "bakingTime": "15 minutes",
+        "image": "images/pexels-janetrangdoan-1024252.jpg",
+        "ingredients": [
+            "1 1/2 cups all-purpose flour",
+            "3 1/2 tsp baking powder",
+            "1 tsp salt",
+            "1 tbsp sugar",
+            "1 1/4 cups milk",
+            "1 egg",
+            "3 tbsp butter, melted"
+        ],
+        "steps": [
+            "In a bowl, sift together flour, baking powder, salt, and sugar.",
+            "Make a well in the center and pour in the milk, egg, and melted butter; mix until smooth.",
+            "Heat a lightly oiled griddle over medium-high heat.",
+            "Pour or scoop the batter onto the griddle. Brown on both sides and serve hot."
+        ],
+        "funFact": "Pancakes have been eaten for over 30,000 years — some of the earliest known grains found were pancake-like!",
+        "stars": 4
+    },
+    {
+        "name": "Avocado Toast",
+        "category": "Breakfast",
+        "bakingTime": "10 minutes",
+        "image": "images/pexels-fotios-photos-1351238.jpg",
+        "ingredients": [
+            "2 slices of bread",
+            "1 ripe avocado",
+            "1/2 lemon, juiced",
+            "Salt and pepper to taste",
+            "Chili flakes (optional)"
+        ],
+        "steps": [
+            "Toast the bread to your desired crispiness.",
+            "Mash the avocado in a bowl with lemon juice, salt, and pepper.",
+            "Spread the mashed avocado on toast.",
+            "Sprinkle with chili flakes if desired."
+        ],
+        "funFact": "Avocados are technically berries — and have more potassium than bananas!",
+        "stars": 3
+    },
+    {
+        "name": "Chicken Caesar Wrap",
+        "category": "Lunch",
+        "bakingTime": "20 minutes",
+        "image": "images/pexels-sash2s-17200361.jpg",
+        "ingredients": [
+            "2 flour tortillas",
+            "1 cup cooked chicken breast, sliced",
+            "1/2 cup romaine lettuce, chopped",
+            "1/4 cup Caesar dressing",
+            "2 tbsp grated Parmesan cheese"
+        ],
+        "steps": [
+            "In a bowl, mix chicken, lettuce, Caesar dressing, and Parmesan.",
+            "Spoon the mixture into tortillas.",
+            "Roll up tightly and slice in half.",
+            "Serve immediately or wrap for later."
+        ],
+        "funFact": "Caesar salad was invented in Mexico by Italian-American chef Caesar Cardini.",
+        "stars": 5
+    },
+    {
+        "name": "Grilled Cheese Sandwich",
+        "category": "Lunch",
+        "bakingTime": "10 minutes",
+        "image": "images/pexels-fotios-photos-1885578.jpg",
+        "ingredients": [
+            "2 slices of bread",
+            "2 slices cheddar cheese",
+            "1 tbsp butter"
+        ],
+        "steps": [
+            "Butter one side of each slice of bread.",
+            "Place cheese between the unbuttered sides.",
+            "Grill in a skillet over medium heat until golden brown on both sides."
+        ],
+        "funFact": "National Grilled Cheese Day is celebrated on April 12th in the US!",
+        "stars": 5
+    },
+    {
+        "name": "Spaghetti Bolognese",
+        "category": "Dinner",
+        "bakingTime": "45 minutes",
+        "image": "images/pexels-angele-j-35172-128408.jpg",
+        "ingredients": [
+            "200g spaghetti",
+            "300g ground beef",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "400g canned tomatoes",
+            "2 tbsp tomato paste",
+            "1 tsp Italian herbs",
+            "Salt and pepper"
+        ],
+        "steps": [
+            "Cook spaghetti according to package instructions.",
+            "In a pan, sauté onion and garlic, add beef and brown.",
+            "Add tomatoes, tomato paste, herbs, salt, and pepper.",
+            "Simmer for 30 minutes and serve over spaghetti."
+        ],
+        "funFact": "Bolognese sauce actually originated in Bologna, Italy — and traditionally uses tagliatelle, not spaghetti!",
+        "stars": 3.5
+    },
+    {
+        "name": "Stir Fry Noodles",
+        "category": "Dinner",
+        "bakingTime": "25 minutes",
+        "image": "images/pexels-horizon-content-2100060-3727197.jpg",
+        "ingredients": [
+            "200g egg noodles",
+            "1 cup mixed vegetables",
+            "2 tbsp soy sauce",
+            "1 tbsp sesame oil",
+            "1 tsp garlic, minced",
+            "1 tsp ginger, minced"
+        ],
+        "steps": [
+            "Cook noodles and drain.",
+            "In a wok, heat sesame oil and sauté garlic and ginger.",
+            "Add vegetables and cook until tender.",
+            "Toss in noodles and soy sauce; stir fry for 2-3 minutes."
+        ],
+        "funFact": "Stir-frying uses very high heat — it’s one of the fastest cooking methods!",
+        "stars": 4
+    },
+    {
+        "name": "Cheesecake Bites",
+        "category": "Desserts",
+        "bakingTime": "1 hour",
+        "image": "images/pexels-lazarus-ziridis-351891426-32626717.jpg",
+        "ingredients": [
+            "200g cream cheese",
+            "1/4 cup sugar",
+            "1 egg",
+            "1/2 tsp vanilla",
+            "Mini muffin liners",
+            "Crushed graham crackers for crust"
+        ],
+        "steps": [
+            "Preheat oven to 325°F (160°C).",
+            "Mix cream cheese, sugar, egg, and vanilla.",
+            "Line muffin tin and press crust into base.",
+            "Fill with mixture and bake 15-18 mins.",
+            "Cool and chill before serving."
+        ],
+        "funFact": "Cheesecake has been served since ancient Greece — even at the first Olympic Games!",
+        "stars": 4.5
+    },
+    {
+        "name": "Brownie Sundae",
+        "category": "Desserts",
+        "bakingTime": "40 minutes",
+        "image": "images/pexels-the-castlebar-3902897-5914459.jpg",
+        "ingredients": [
+            "1 batch brownies",
+            "Vanilla ice cream",
+            "Chocolate syrup",
+            "Whipped cream"
+        ],
+        "steps": [
+            "Bake brownies and let them cool.",
+            "Cut into squares and place in a bowl.",
+            "Top with ice cream, syrup, and whipped cream.",
+            "Serve immediately."
+        ],
+        "funFact": "Sundaes became popular in the 1890s as a legal workaround to Sunday soda bans!",
+        "stars": 3.5
+    },
+    {
+        "name": "Veggie Omelette",
+        "category": "Breakfast",
+        "bakingTime": "10 minutes",
+        "image": "images/pexels-enginakyurt-1437268.jpg",
+        "ingredients": [
+            "2 eggs",
+            "1/4 cup chopped bell peppers",
+            "1/4 cup chopped onion",
+            "Salt and pepper",
+            "1 tbsp oil"
+        ],
+        "steps": [
+            "Whisk eggs with salt and pepper.",
+            "Heat oil and cook veggies until soft.",
+            "Pour eggs over veggies and cook until set.",
+            "Fold and serve."
+        ],
+        "funFact": "The largest omelette ever made weighed over 6 tons in Turkey in 2010!",
+        "stars": 4
+    },
+    {
+        "name": "Mac & Cheese",
+        "category": "Lunch",
+        "bakingTime": "30 minutes",
+        "image": "images/pexels-heyronmar-806357.jpg",
+        "ingredients": [
+            "200g macaroni",
+            "2 tbsp butter",
+            "2 tbsp flour",
+            "1 cup milk",
+            "1 cup shredded cheddar cheese"
+        ],
+        "steps": [
+            "Boil macaroni and drain.",
+            "Make a roux with butter and flour, then slowly add milk.",
+            "Stir in cheese until melted.",
+            "Mix in macaroni and bake or serve warm."
+        ],
+        "funFact": "Thomas Jefferson popularized mac and cheese in the U.S. after visiting France!",
+        "stars": 3.2
+    },
+    {
+        "name": "Taco Salad",
+        "category": "Dinner",
+        "bakingTime": "20 minutes",
+        "image": "images/pexels-mikhail-nilov-8920125.jpg",
+        "ingredients": [
+            "1 cup ground beef",
+            "1 tbsp taco seasoning",
+            "1 cup lettuce, chopped",
+            "1/2 cup shredded cheese",
+            "1/2 cup tortilla chips",
+            "2 tbsp sour cream"
+        ],
+        "steps": [
+            "Cook beef with taco seasoning.",
+            "Combine lettuce, cheese, chips, and beef.",
+            "Top with sour cream and serve."
+        ],
+        "funFact": "Taco salad was first made popular in Texas during the 1960s Tex-Mex boom!",
+        "stars": 4.6
+    },
+    {
+        "name": "Lemon Bars",
+        "category": "Desserts",
+        "bakingTime": "45 minutes",
+        "image": "images/pexels-angelicabritto-31111197.jpg",
+        "ingredients": [
+            "1 cup flour",
+            "1/2 cup butter",
+            "1/4 cup powdered sugar",
+            "2 eggs",
+            "1 cup sugar",
+            "2 tbsp lemon juice",
+            "2 tbsp flour"
+        ],
+        "steps": [
+            "Mix flour, butter, and powdered sugar; press into pan and bake at 350°F for 15 mins.",
+            "Whisk eggs, sugar, lemon juice, and flour; pour over crust.",
+            "Bake 20-25 mins. Cool and dust with powdered sugar."
+        ],
+        "funFact": "Lemon bars became popular in American cookbooks in the 1960s — a true retro classic!",
+        "stars": 4.7
+    }
+]

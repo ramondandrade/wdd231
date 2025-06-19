@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tasty Bites - Just amazing recipes">
+    <meta name="author" content="Ramon Andrade">
+    <title>Tasty Bites - Thank you</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" href="./images/icon.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ramondandrade.github.io/wdd231/final">
+    <meta property="og:image" content="https://ramondandrade.github.io/wdd231/final/images/banner.webp">
+    <meta property="og:description" content="Tasty Bites">
+    <meta property="og:site_name" content="Tasty Bites">
+    <meta property="og:title" content="Tasty Bites">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ramondandrade.github.io/wdd231/final">
+    <meta name="twitter:title" content="Tasty Bites">
+    <meta name="twitter:description" content="Tasty Bites">
+    <meta name="twitter:image" content="https://ramondandrade.github.io/wdd231/final/images/banner.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+</head>
+
+<body>
+    <header>
+        <p class="logo">Tasty Bites</p>
+
+        <nav class="nav_bar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="recipes.html" class="nav-link">Recipes</a>
+            <a href="send-recipe.html" class="nav-link active">Send Your Recipe</a>
+        </nav>
+
+        <button type="button" id="menu" aria-label="Menu"></button>
+
+    </header>
+
+    <main>
+        <section class="recipes">
+
+            <h1>Thank you! We received your recipe.</h1>
+
+            <p><strong>First Name:</strong> <span id="firstName"></span></p>
+            <p><strong>Last Name:</strong> <span id="lastName"></span></p>
+            <p><strong>Email Address:</strong> <span id="email"></span></p>
+             <p><hr></p>
+            <p><strong>Recipe Name:</strong> <span id="recipe_name"></span></p>
+            <p><strong>Recipe Category:</strong> <span id="recipe_category"></span></p>
+            <p><strong>Cooking time:</strong> <span id="recipe_time"></span></p>
+            <p><strong>Ingredients:</strong> <span id="recipe_ingridients"></span></p>
+            <p><strong>Steps:</strong> <span id="recipe_steps"></span></p>
+            <p><strong>Fun fact:</strong> <span id="recipe_funfact"></span></p>
+           
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at hello@tastybites.com</p>
+        <p>&copy; 2025 Tasty Bites</p>
+        <div class="social-links">
+            <a href="https://instagram.com">Instagram</a> |
+            <a href="https://facebook.com">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/thankyou.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tasty Bites - Just amazing recipes">
+    <meta name="author" content="Ramon Andrade">
+    <title>Tasty Bites - Send you recipe</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" href="./images/icon.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ramondandrade.github.io/wdd231/final">
+    <meta property="og:image" content="https://ramondandrade.github.io/wdd231/final/images/banner.webp">
+    <meta property="og:description" content="Tasty Bites">
+    <meta property="og:site_name" content="Tasty Bites">
+    <meta property="og:title" content="Tasty Bites">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ramondandrade.github.io/wdd231/final">
+    <meta name="twitter:title" content="Tasty Bites">
+    <meta name="twitter:description" content="Tasty Bites">
+    <meta name="twitter:image" content="https://ramondandrade.github.io/wdd231/final/images/banner.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+</head>
+
+<body>
+    <header>
+        <p class="logo">Tasty Bites</p>
+
+        <nav class="nav_bar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="recipes.html" class="nav-link">Recipes</a>
+            <a href="send-recipe.html" class="nav-link active">Send Your Recipe</a>
+        </nav>
+
+        <button type="button" id="menu" aria-label="Menu"></button>
+
+    </header>
+
+    <main>
+        <section class="recipes">
+            <h1>Send Your Recipe</h1>
+
+            <form action="thankyou.html" method="get" autocomplete="on">
+                <p class="form-titles">Personal information:</p>
+                <label title="Enter your first name">First Name:
+                    <input type="text" name="firstName" required title="Requires at least 7 alpha, hyphens, and spaces only." autocomplete="given-name">
+                </label>
+                <label title="Enter your last name">Last Name:
+                    <input type="text" name="lastName" required title="Last Name" autocomplete="family-name">
+                </label>
+               
+                <label title="Enter your email">Email:
+                    <input type="email" name="email" required title="Email Address" autocomplete="email"
+                        placeholder="you@example.com">
+                </label>
+               
+                <p class="form-titles">Recipe Information:</p>
+
+                <label title="Name">Name:
+                    <input type="text" name="recipe_name" required>
+                </label>
+
+                <label title="Category">Category
+                    <select name="recipe_category" required>
+                        <option value="Breakfast">Breakfast</option>
+                        <option value="Lunch">Lunch</option>
+                        <option value="Dinner">Dinner</option>
+                        <option value="Desserts">Desserts</option> 
+                    </select>
+                </label>
+
+                <label title="Cooking time">Cooking time:
+                    <input type="text" name="recipe_time" required>
+                </label>
+
+                <label title="Describe your business or organization">Ingredients:
+                    <textarea type="text" name="recipe_ingridients" required></textarea>
+                </label>
+
+                <label title="Describe your business or organization">Steps:
+                    <textarea type="text" name="recipe_steps" required></textarea>
+                </label>
+
+                <label title="Cooking time">Fun fact
+                    <input type="text" name="recipe_funfact">
+                </label>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+                <input type="submit" class="button" value="Submit">
+            </form>
+
+           
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at hello@tastybites.com</p>
+        <p>&copy; 2025 Tasty Bites</p>
+        <div class="social-links">
+            <a href="https://instagram.com">Instagram</a> |
+            <a href="https://facebook.com">Facebook</a>
+        </div>
+    </footer>
+    
+    <script src="scripts/scripts.js"></script>
+
+</body>
+
+</html>
