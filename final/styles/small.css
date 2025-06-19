@@ -104,7 +104,6 @@ main {
   text-align: center;
   border-radius: 1rem;
   overflow: hidden;
-    background-image: url("../images/banner.webp");
   background-size: cover;
   background-position: center;
 }
