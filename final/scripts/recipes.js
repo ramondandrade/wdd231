@@ -59,7 +59,6 @@ function renderTopRecipes() {
     fetch('./data/recipes.json')
         .then(res => res.json())
         .then(recipes => {
-
             recipeList.innerHTML = "";
             recipes
                 .filter(recipe => recipe.stars >= filter_start)
@@ -67,6 +66,10 @@ function renderTopRecipes() {
                 .forEach(recipe => {
                     recipeList.appendChild(createCard(recipe))
                 });
+        })
+        .catch(error => {
+            recipeList.innerHTML = "Sorry, we are unable to show recipes."
+            console.error('Error loading top recipes:', error);
         });
 
 }
@@ -84,6 +87,9 @@ function renderRecipes(filter_cat = 'all') {
                 .forEach(recipe => {
                     recipeList.appendChild(createCard(recipe))
                 });
+        }).catch(error => {
+            recipeList.innerHTML = "Sorry, we are unable to show recipes."
+            console.error('Error loading recipes:', error);
         });
 
 }
