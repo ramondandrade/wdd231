@@ -131,7 +131,7 @@
     {
         "name": "Cheesecake Bites",
         "category": "Desserts",
-        "bakingTime": "1 hour",
+        "bakingTime": "60 minutes",
         "image": "images/pexels-lazarus-ziridis-351891426-32626717.jpg",
         "ingredients": [
             "200g cream cheese",
@@ -255,5 +255,74 @@
         ],
         "funFact": "Lemon bars became popular in American cookbooks in the 1960s — a true retro classic!",
         "stars": 4.7
+    },
+    {
+        "name": "Quinoa Salad",
+        "category": "Lunch",
+        "bakingTime": "25 minutes",
+        "image": "images/pexels-mikhail-nilov-6740535.jpg",
+        "ingredients": [
+            "1 cup quinoa",
+            "2 cups water",
+            "1/2 cup cherry tomatoes, halved",
+            "1/2 cup cucumber, diced",
+            "1/4 cup feta cheese, crumbled",
+            "2 tbsp olive oil",
+            "1 tbsp lemon juice",
+            "Salt and pepper"
+        ],
+        "steps": [
+            "Rinse quinoa and cook with water according to package instructions.",
+            "Let quinoa cool, then combine with tomatoes, cucumber, and feta.",
+            "Drizzle with olive oil and lemon juice.",
+            "Season with salt and pepper, toss, and serve."
+        ],
+        "funFact": "Quinoa is a complete protein, containing all nine essential amino acids!",
+        "stars": 4.3
+    },
+    {
+        "name": "Classic French Toast",
+        "category": "Breakfast",
+        "bakingTime": "15 minutes",
+        "image": "images/istockphoto-1341998526-612x612.jpg",
+        "ingredients": [
+            "4 slices bread",
+            "2 eggs",
+            "1/2 cup milk",
+            "1 tsp vanilla extract",
+            "1/2 tsp cinnamon",
+            "Butter for frying",
+            "Maple syrup"
+        ],
+        "steps": [
+            "Whisk eggs, milk, vanilla, and cinnamon in a bowl.",
+            "Dip bread slices in the mixture, coating both sides.",
+            "Fry in butter over medium heat until golden brown on both sides.",
+            "Serve with maple syrup."
+        ],
+        "funFact": "French toast dates back to ancient Rome and is called 'pain perdu' in France, meaning 'lost bread'!",
+        "stars": 4.8
+    },
+    {
+        "name": "Caprese Skewers",
+        "category": "Lunch",
+        "bakingTime": "10 minutes",
+        "image": "images/pexels-guvo59-32570605.jpg",
+        "ingredients": [
+            "12 cherry tomatoes",
+            "12 mini mozzarella balls",
+            "12 fresh basil leaves",
+            "2 tbsp balsamic glaze",
+            "Salt and pepper",
+            "12 small skewers"
+        ],
+        "steps": [
+            "Thread a tomato, mozzarella ball, and basil leaf onto each skewer.",
+            "Arrange skewers on a platter.",
+            "Drizzle with balsamic glaze and sprinkle with salt and pepper.",
+            "Serve immediately."
+        ],
+        "funFact": "Caprese salad is named after the Italian island of Capri and features the colors of the Italian flag!",
+        "stars": 4.5
     }
 ]
